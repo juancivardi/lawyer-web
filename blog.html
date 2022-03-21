@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    
+    <!-- Name and author -->
+    <meta name="description" content="Blog de la doctora donde expresa sus opiniones y publica noticias judiciales.">
+    <meta name="author" content = "Juan-Civardi">
+    <!-- CSS archives -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles-dist.css">
+    <!-- Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap" rel="stylesheet">
+            <!-- Fonts currently linked: 'Poppins', 'Montserrat' -->
+    <!-- Title -->
+    <title>Estudio Jacznik - Blog</title>
+</head>
+<body class="body">
+    <!-- Header of page -->
+    <header>
+        <!-- Title, logo and menu button-->
+        <div class="title-logo-button">
+            <!-- Menu button, by Jonathan Suh @jonsuh from https://jonsuh.com/hamburgers-->
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <!-- Title and logo -->
+            <div class="title-logo">
+                <img src="assets/icons/logo-sand-svg.svg" alt="Logo del estudio Carreras Jacznik" class="ppal-logo">
+                <a href="index.html" target="_self" class="link-title">
+                    <h1 class="title">Estudio Carreras Jacznik</h1>
+                </a>
+            </div>
+        </div>
+        <!-- Fast contact links -->
+        <div class="header-phone-mail">
+            <a href="tel:02213037594" aria-label="Contacto por llamada al número 02213037594" tabindex="5" target="_self" class="hc-phone">221-3037594</a>
+            <a href="mailto:cintiacarreras@outlook.com" aria-label="Contacto por mail" tabindex="7" target="_blank" class="hc-mail">cintiacarreras@outlook.com</a>    
+        </div>
+        <div class="ask-now">
+            <a href="blog.html#contact" target="_self" class="hc-ask">¡Consultá online ahora!</a>   
+        </div>
+        <!-- Social links -->
+        <ul class="social-links-header">
+            <li>
+                <a href="https://www.instagram.com/estudio_carrerasjacznik" aria-label="Contacto por Instagram" tabindex="3" target="_blank"> <img src="assets/icons/Instagram-SVG.svg" alt="icono de instagram" class="social-icon"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/estudiocarrerasjacznik" aria-label="Contacto por Facebook" tabindex="2" target="_blank">
+                <img src="assets/icons/Facebook-SVG.svg" alt="icono de facebok" class="social-icon"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/cintia-carreras-jacznik-91bb88ab/?originalSubdomain=ar" aria-label="Visitar el perfil de linkedin de la doctora Carreras Jacznik" tabindex="9" target="_blank">
+                <img src="assets/icons/Linkedin-svg.svg" alt="icono de linkedin" class="social-icon"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/cintiajacz" aria-label="Visitar el twitter de la doctora Carreras Jacznik" tabindex="8" target="_blank">
+                <img src="assets/icons/Twitter-SVG.svg" alt="icono de twitter" class="social-icon"></a>
+            </li>
+        </ul>
+        <!-- Navegation and shitch theme-->
+        <nav id="navegation" class="navegation">
+            <ul class="header-navegation-links">
+                <li>
+                    <a href="index.html" target="_self" class="nav-home">Inicio</a>
+                </li>
+                <li>
+                    <a href="blog.html#contact" class="nav-contact">Contacto</a>
+                </li>
+                <li>
+                    <a href="index.html#about_us" target="_self" class="nav-about-us">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html#services" target="_self" class="nav-services">Servicios</a>
+                </li>
+                <li>
+                    <a href="blog.html" target="_self"  class="nav-blog">Blog</a>
+                </li>
+            </ul>
+            <!-- Toggle color -->
+            <div class="switch-theme">
+                <p class="text-theme">Modo oscuro</p>
+                <div class="check-circle"></div>
+                <input type="checkbox" name="theme" id="theme" class="theme">
+            </div>
+        </nav>
+    </header>
+    <!-- Principal content -->
+    <main>
+        <h2 class="warning-blog">La doctora no tuvo tiempo de escribir un blog todavía. ¡Volvé a chequear en otro momento! ;) </h2>
+        
+        <!-- Contact main -->
+        <div id="contact" class="aux-contact"></div>
+        <div class="contact-main">
+            <h2 class="contact-title">Contactanos, estamos para ayudarte</h2>
+            <div class="contact-mail-links-dv">
+                <ul class="contact-links-main">
+                    <li class="cm-whatsapp">
+                        <a href="https://api.whatsapp.com/send?phone=5492213037594" target="_blank" class="lkm-instagram">Escribinos por WhatsApp</a>
+                    </li>
+                    <li class="cm-instagram">
+                        <a href="https://www.instagram.com/estudio_carrerasjacznik" target="_blank" class="lkm-instagram">Escribinos por Instagram</a>
+                    </li>
+                    <li class="cm-facebook">
+                        <a href="https://www.facebook.com/estudiocarrerasjacznik" target="_blank" class="lkm-facebook">Escribinos por Facebook</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="assets/images/Contact-us-svg.svg" alt="Dibujo decorativo de una mujer con una computadora" class="contact-img">
+            <div>
+                <form class="contact-form" method="POST" action="http://localhost/my-php/form.php">
+                    <input type="name" placeholder="Nombre (*)" class="ci-name" name="name" minlength="3" maxlength="25" required>
+                    <input type="surname" placeholder="Apellido(*)" class="ci-surname" name="surname" minlength="3" maxlength="25" required>
+                    <input type="email" placeholder="Email" class="ci-mail" name="email">
+                    <input type="tel" placeholder="Telefono (*)" class="ci-phone" name="phone" min="5" required>
+                    <textarea cols="30" rows="10" placeholder="¿En que podemos ayudarte? (*)" class="ci-text" name="text" minlength="5" maxlength="4000" required></textarea>
+                    <input type="submit" placeholder="Enviar" class="ci-submit" name="send">
+                </form>
+            </div>
+        </div>
+        <!-- Whatsapp float contact -->
+        <div class="float-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5492213037594" aria-label="Contacto por WhatsApp al número 02213037594" target="_blank">
+                <img src="assets/icons/Whatsapp-bigcircle-svg.svg" alt="icono de whatsapp" class="float-whatsapp-icon">
+            </a>
+        </div>
+    </main>
+    <!-- Foot of page -->
+    <footer class="footer">
+        <div class="dv-footer">
+            <div class="d-footer">
+                <h3>Dirección y contacto</h3>
+                <p>XX entre YY y ZZ</p>
+                <p>Llamada/Whatsapp: 2213037594</p>
+                <p>Email: cintiacarreras@outlook.com</p>
+            </div>
+            <div class="d-footer">
+                <h3>Encontranos en las redes</>
+                <ul class="social-links-footer">
+                    <li>
+                        <a href="https://www.instagram.com/estudio_carrerasjacznik" aria-label="Contacto por Instagram" tabindex="3" target="_blank"> 
+                        <img src="assets/icons/Instagram-SVG.svg" alt="icono de instagram" class="social-icon-footer"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/estudiocarrerasjacznik" aria-label="Contacto por Facebook" tabindex="2" target="_blank">
+                        <img src="assets/icons/Facebook-SVG.svg" alt="icono de facebok" class="social-icon-footer"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/cintia-carreras-jacznik-91bb88ab/?originalSubdomain=ar" aria-label="Visitar el perfil de linkedin de la doctora Carreras Jacznik" tabindex="9" target="_blank">
+                        <img src="assets/icons/Linkedin-svg.svg" alt="icono de linkedin" class="social-icon-footer"></a>
+                    </li>
+                 <li>
+                        <a href="https://twitter.com/cintiajacz" aria-label="Visitar el twitter de la doctora Carreras Jacznik" tabindex="8" target="_blank">
+                        <img src="assets/icons/Twitter-SVG.svg" alt="icono de twitter" class="social-icon-footer"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Credits -->
+        <p class="credits">Todos los derechos reservados | All rights reserved. | Page made by @juancivardi.</p>
+    </footer>
+</body>
+        <!-- JavaScript archives -->
+    <script src="javascript/javaScript.js"></script>
+</html>
