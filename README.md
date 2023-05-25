@@ -1,2 +1,3 @@
 # lawyer-web
-A web page doit in the winter
+A web page that i make to practice basic html, css and javascript
+
